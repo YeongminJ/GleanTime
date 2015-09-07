@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+	
+    <Button 
+        android:id="@+id/apply_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Apply"/>
+    
+    <ImageView 
+        android:id="@+id/cal_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"/>
+    
+    <TextView 
+        android:id="@+id/cal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="temp title"/>
+    
+    <Button 
+        android:id="@+id/show_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Show"/>
+    
+    <Button 
+        android:id="@+id/alarm_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Alarm"/>
+    
+</LinearLayout>

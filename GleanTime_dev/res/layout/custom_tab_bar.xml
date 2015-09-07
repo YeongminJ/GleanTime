@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/calendar_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onTabClick"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/timeline_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onTabClick"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/market_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onTabClick"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/mycal_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onTabClick"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/friend_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onTabClick"
+        android:text="5" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_list">
+        <item>@string/notice</item>
+        <item>@string/message</item>
+        <item>@string/settings</item>
+        <item>@string/about</item>
+    </string-array>
+    
+    <string-array name="menu_icon_list">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </string-array>
+</resources>
